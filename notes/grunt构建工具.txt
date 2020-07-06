@@ -1,0 +1,19 @@
+css模板解析 		grunt-contrib-sass
+js转义 			grunt-babel
+html模板编译 	grunt-swig
+
+文件引用处理		grunt-usemin
+
+css压缩 			grunt-contrib-cssmin
+js压缩			grunt-contrib-uglify
+html压缩			grunt-contrib-htmlmin
+
+图片压缩			grunt-contrib-imagemin
+字体压缩			font-min
+
+文件清除			grunt-contrib-clean
+
+文件操作 		grunt-contrib-copy
+文件监控 		grunt-contrib-watch
+
+开发服务器		browser-sync

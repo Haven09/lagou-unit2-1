@@ -1,0 +1,22 @@
+
+任务组合操作		const {series, parallel} = require('gulp')
+文件操作 		const {src, dest} = require('gulp')
+文件清除			del
+
+css模板解析 		gulp-sass
+js转义 			gulp-babel
+html模板编译 	swig
+
+文件引用处理		gulp-useref
+
+css压缩 			gulp-clean-css
+js压缩			gulp-uglify
+html压缩			gulp-htmlmin
+
+图片压缩			gulp-imagemin
+字体压缩			gulp-imagemin
+
+插件自动加载		gulp-load-plugins
+
+文件监控			const {watch} = require('gulp')
+开发服务器		browser-sync
